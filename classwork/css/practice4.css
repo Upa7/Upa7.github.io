@@ -1,0 +1,9 @@
+p {
+    font-family: 'Times New Roman', serif;
+    color: rgb(142, 109, 18);
+}
+
+p#intro {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(13, 91, 117);
+}

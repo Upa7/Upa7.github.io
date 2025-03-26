@@ -1,0 +1,13 @@
+ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block; 
+    margin: 15px; 
+    border: 2px solid #1160ded5; 
+    padding: 5px; 
+}
+

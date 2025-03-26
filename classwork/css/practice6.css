@@ -1,0 +1,24 @@
+ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+@media only screen and (orientation: portrait) {
+li {
+    display: inline-block; 
+    margin: 15px; 
+    border: 2px solid #d411ded5; 
+    padding: 5px; 
+}
+}
+
+@media only screen and (orientation: landscape) {
+li {
+    display: inline-block; 
+    margin: 15px; 
+    border: 2px solid #1160ded5; 
+    padding: 5px; 
+
+}
+}
