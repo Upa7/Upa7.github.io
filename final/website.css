@@ -1,0 +1,148 @@
+/* Homepage CSS START*/
+h2 {
+    text-align: center;
+    padding: 12px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #161515;
+    padding: 20px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #dfdfd2;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px 25px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: #2c3e50;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.homepage-main {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px; 
+    margin: 100px auto 0;
+}
+
+.bitmoji-svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.bitmoji-svg img {
+    height: 300px;
+    width: auto;
+}
+
+main h1 {
+    font-size: 45px;
+    color: #084187;
+    text-align: left;
+}
+
+main p {
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0a2a71;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 999px;
+    font-family: 'Poppins', sans-serif;
+}
+.learn-more:hover {
+    background-color: #a4aea5;
+}
+.binary-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px; 
+}
+
+.binary-img img {
+    width: 1200px; 
+    height: auto;
+}
+
+/* Homepage CSS END */
+/* Portfolio CSS START*/
+article {
+    background-color: #ffffff;
+    border: 1px solid #000006;
+    padding: 1.3rem;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    filter: drop-shadow(0.3rem 0.3rem 0.2rem #11064b);
+    font-size: 15px;
+}
+
+footer {
+    color: #080000;
+    text-align: center;
+    padding: 1rem;
+}
+
+.portfolio-main {
+    border: 2px solid #4CAF50;
+    margin: 20px auto;
+    max-width: 960px;
+    border-width: 0;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.5rem; 
+}
+/* Portfolio CSS END*/
