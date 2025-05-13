@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title> Contact Me</title>
+        <link href="website.css" rel="stylesheet"/>
+    </head>
+    <body>
+
+        <header>
+            <h1 id = "Contact Me"> USK. </h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home </a></li>
+                    <li><a href="about.html">About </a></li>
+                    <li><a href="portfolio.html">Portfolio </a></li>
+                    <li><a href="resume.html">Résumé </a></li>
+                    <li><a href="contact.html">Contact Me </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="side-images left-images">
+            <img src="../images/about9.png" alt="My bitmoji is in a coffee cup.">
+        </div>
+    
+        <div class="side-images right-images">
+            <img src="../images/about8.png" alt="My bitmoji is peeping out a door.">
+        </div>
+        
+
+<!-- PART #1: Let's Connect -->
+            <main class="contact-container">
+                <section class="contact-links">
+                    <h2>Let's Connect</h2>
+                    <ul>
+                        <li> Check out my <a href="https://www.instagram.com/upa_07/" target="_blank">Instagram</a></li>
+                        <li> Check out my <a href="https://github.com/Upa7/Upa7.github.io" target="_blank">GitHub</a></li>
+                        <li> Check out my <a href="https://www.linkedin.com/in/upashana-kumar/" target="_blank">LinkedIn</a></li>
+                        <li> Feel free to <a href="mailto:usureshkumar@umass.edu">email</a> me!</li>
+                    </ul>
+                </section>
+
+<!-- PART #2: Contact Me -->
+                <h2>Contact Me</h2>
+                <p>Got a question, project, or just wanna say hey? I would love to hear from you! ✨🚀</p>
+    
+                <form class="contact-form" action="mailto:usureshkumar@umass.edu" method="POST" enctype="text/plain">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+            
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" />
+            
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">Send Message</button>
+                </form>
+            </main>
+        </body>
+        </html>
