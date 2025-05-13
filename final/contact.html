@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title> Contact Me</title>
-        <link href="website.css" rel="stylesheet"/>
+        <link href="website.css" rel="stylesheet">
     </head>
     <body>
 
         <header>
-            <h1 id = "Contact Me"> USK. </h1>
+            <h1 id = "ContactMe"> USK. </h1>
             <nav>
                 <ul>
                     <li><a href="../index.html">Home </a></li>
@@ -21,12 +21,19 @@
         </header>
 
         <div class="side-images left-images">
-            <img src="../images/about9.png" alt="My bitmoji is in a coffee cup.">
+            <div class="image-container">
+                <img src="../images/about9.png" alt="My bitmoji is in a coffee cup.">
+                <div class="credit">Bitmoji © Snap Inc.</div>
+            </div>
         </div>
     
         <div class="side-images right-images">
-            <img src="../images/about8.png" alt="My bitmoji is peeping out a door.">
+            <div class="image-container">
+                <img src="../images/about8.png" alt="My bitmoji is peeping out a door.">
+                <div class="credit">Bitmoji © Snap Inc.</div>
+            </div>
         </div>
+        
         
 
 <!-- PART #1: Let's Connect -->
@@ -47,13 +54,13 @@
     
                 <form class="contact-form" action="mailto:usureshkumar@umass.edu" method="POST" enctype="text/plain">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required />
+                    <input type="text" id="name" required>
 
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required />
+                    <input type="email" id="email" required>
             
                     <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" />
+                    <input type="text" id="subject">
             
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="6" required></textarea>
